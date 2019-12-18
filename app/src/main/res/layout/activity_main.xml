@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/logo"
+       android:layout_gravity="center">
+
+   </ImageView>
+
+   <EditText
+
+       android:layout_marginTop="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:hint="@string/user_id"
+       android:background="#fff"
+       android:padding="10dp"
+       />
+
+   <EditText
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:hint="@string/password"
+       android:background="#fff"
+       android:padding="10dp"
+
+       />
+<!--   <LinearLayout-->
+<!--       android:orientation="horizontal"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content">-->
+
+<!--      <CheckBox-->
+<!--          android:layout_marginTop="8dp"-->
+<!--          android:textColor="#fff"-->
+<!--          android:id="@+id/checkboxId"-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:text="Remember me"-->
+<!--          android:hint="#fff"-->
+<!--          android:textSize="10sp"-->
+<!--          android:layout_marginLeft="20dp"-->
+<!--          android:layout_marginRight="20dp"/>-->
+
+<!--      <TextView-->
+<!--          android:layout_marginTop="8dp"-->
+<!--          android:text="Forget Password?"-->
+<!--          android:textColor="#fff"-->
+<!--          android:textSize="10sp"-->
+<!--          android:id="@+id/forgetpassId"-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:layout_marginLeft="50dp"-->
+<!--          android:layout_marginRight="20dp"/>-->
+
+<!--   </LinearLayout>-->
+
+
+   <Button
+       android:id="@+id/loginBtnId"
+       android:text="@string/login"
+       android:textColor="#fff"
+       android:padding="5dp"
+       android:background="@color/login"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

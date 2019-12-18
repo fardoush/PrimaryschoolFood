@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#078EF8</color>
+    <color name="search">#007E3E</color>
+    <color name="login">#007E3E</color>
+    <color name="sumary_bg">#E5F6C8</color>
+
+</resources>

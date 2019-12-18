@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sumary_bg"
+
+    tools:context=".Recycler">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/colorPrimary">
+
+        <LinearLayout
+            android:background="#95B169"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+
+            <EditText
+                android:layout_marginTop="50dp"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="0dp"
+                android:hint="@string/search"
+                android:background="#fff"
+                android:padding="10dp">
+
+
+            </EditText>
+
+            <!--            />-->
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:padding="5dp"
+                android:backgroundTint="@color/search"
+                android:src="@drawable/search"
+                android:nextFocusRight="@drawable/search"
+                android:background="@color/search"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:horizontalSpacing="20dp"
+        android:listSelector="@color/colorPrimary"
+        android:numColumns="2"
+        android:scrollbars="none"
+
+        android:verticalSpacing="20dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

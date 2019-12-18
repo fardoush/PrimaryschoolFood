@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AdminPrimarySchool</string>
+    <!--    login-->
+    <string name="user_id">User ID/Email address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="search"> </string>
+    <string name="total_boys"> Total Boys Student</string>
+    <string name="total_b"> 5000</string>
+    <string name="total_girls"> Total Girls Student</string>
+    <string name="total_g"> 5000</string>
+
+</resources>
